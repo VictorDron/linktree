@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.topo{
+
+    background-image: linear-gradient(to right, rgb(101, 101, 224),rgb(85, 16, 85));
+    height: 170px;
+    display: flex;
+    /* Controla a posição das div */
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /* Alinhamento na horizontal */
+    justify-content: center;
+    /* Alinhamento na vertical */
+    align-items: center;
+}
+
+.victor{
+    
+    margin: 2.5%;
+    width: 20%;
+    height: 75%;
+    border-radius: 100%;
+}
+
+
+.link {
+
+    height: 450px;;
+    width: 100%;
+    background: white;
+    background-image: linear-gradient(to right, rgb(101, 101, 224),rgb(85, 16, 85));
+    text-align: center;
+    
+}
+
