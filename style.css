@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
 .topo{
@@ -21,19 +22,58 @@
 .victor{
     
     margin: 2.5%;
-    width: 20%;
-    height: 75%;
+    width: 40%;
     border-radius: 100%;
+    box-shadow: 5px 5px 5px black ;
 }
 
 
-.link {
+.titulo {
 
-    height: 450px;;
-    width: 100%;
-    background: white;
+    display:flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
     background-image: linear-gradient(to right, rgb(101, 101, 224),rgb(85, 16, 85));
     text-align: center;
+    font-size: 15px;
+    color: white;
     
 }
+
+.link{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: CENTER;
+    background-image: linear-gradient(to right, rgb(101, 101, 224),rgb(85, 16, 85));
+    width: 100%;
+    height: 430px;
+}
+
+.lista {
+
+    list-style: none;
+    text-decoration: none;   
+}
+
+.lista li{
+    margin: 10px;
+    text-align: center; 
+}
+
+.lista a{
+    
+    text-decoration: none;
+    color: white; 
+
+    
+}
+
+
+
+
 
