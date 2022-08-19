@@ -41,7 +41,7 @@
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: fl;
+    justify-content: center;
     align-items: center;
     height: 100px;
     background-image: linear-gradient(to right, rgb(33, 35, 37),rgb(102, 20, 102),rgb(214, 95, 214));
