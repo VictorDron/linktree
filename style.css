@@ -6,7 +6,7 @@
 
 .topo{
 
-    background-image: linear-gradient(to right, rgb(101, 101, 224),rgb(85, 16, 85));
+    background-image: linear-gradient(to right, rgb(33, 35, 37),rgb(102, 20, 102),rgb(214, 95, 214));
     height: 160px;
     display: flex;
     /* Controla a posição das div */
@@ -41,10 +41,10 @@
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: fl;
     align-items: center;
     height: 100px;
-    background-image: linear-gradient(to right, rgb(101, 101, 224),rgb(85, 16, 85));
+    background-image: linear-gradient(to right, rgb(33, 35, 37),rgb(102, 20, 102),rgb(214, 95, 214));
     text-align: center;
     font-size: 15px;
     color: white;
@@ -58,7 +58,7 @@
     flex-direction: column;
     justify-content: flex-start; 
     align-items: center;
-    background-image: linear-gradient(to right, rgb(101, 101, 224),rgb(85, 16, 85));
+    background-image: linear-gradient(to right, rgb(33, 35, 37),rgb(102, 20, 102),rgb(214, 95, 214));
     width: 100%;
     height: 430px;
     padding: 10%;
@@ -83,11 +83,12 @@
     
     text-decoration: none;
     color: white; 
-    border: 1px solid black;
-    border-radius:20%;
     padding: 100%;
     width: 90%;
     
+}
+.lista a img{
+    width: 60px;
 }
 
 
