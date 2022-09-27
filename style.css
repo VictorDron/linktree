@@ -38,11 +38,13 @@ body{
     flex-direction: column;
     align-items: center;
     height: 300px;
+    
   
 }
 
 #lista {
-    list-style: none;  
+    list-style: none;
+     
 }
 
 #lista img{
